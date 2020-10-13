@@ -12,18 +12,22 @@ public class Triangle
 
 	public Triangle(int a, int b, int c)
 	{
-
+  sideA = a;
+  sideB = b;
+  sideC = c;
 	}
 
 	public int getPerimeter( )
 	{
-    return 0;
+    int perimeter = sideA+sideB+sideC;
+    return perimeter;
 	}
 
 	public double getArea( )
 	{
     double perimeter = getPerimeter( );
-
-		return 0;
+    perimeter /=2;
+    double area = Math.sqrt(perimeter*(perimeter-sideA)*(perimeter-sideB)*(perimeter-sideC));
+		return area;
 	}
 }

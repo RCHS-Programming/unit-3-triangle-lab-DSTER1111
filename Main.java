@@ -1,5 +1,5 @@
-//Name: 
-//Date: 
+//Name: AA
+//Date: 10/13/2020
 
 import java.util.Scanner; 
 
@@ -25,7 +25,7 @@ public class Main
 		System.out.print("Area is: " );
 
     //This will round the area
-    System.out.printf("%.5f\n",test.getArea())
+    System.out.printf("%.5f\n",test.getArea());
 
 	}
 }
